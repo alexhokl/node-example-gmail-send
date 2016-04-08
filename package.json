@@ -1,0 +1,19 @@
+{
+  "name": "node-example-gmail-send",
+  "version": "1.0.0",
+  "description": "Example of sending mail from server running node.js through gmail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexhokl/node-example-gmail-send.git"
+  },
+  "author": "alexhokl@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexhokl/node-example-gmail-send/issues"
+  },
+  "homepage": "https://github.com/alexhokl/node-example-gmail-send#readme"
+}
