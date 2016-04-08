@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/alexhokl/node-example-gmail-send/issues"
   },
-  "homepage": "https://github.com/alexhokl/node-example-gmail-send#readme"
+  "homepage": "https://github.com/alexhokl/node-example-gmail-send#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "google-auth-library": "^0.9.7",
+    "googleapis": "^4.0.0"
+  }
 }
