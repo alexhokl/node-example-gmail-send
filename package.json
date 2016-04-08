@@ -20,5 +20,10 @@
     "express": "^4.13.4",
     "google-auth-library": "^0.9.7",
     "googleapis": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "eslint": "^2.7.0",
+    "eslint-config-defaults": "^9.0.0"
   }
 }

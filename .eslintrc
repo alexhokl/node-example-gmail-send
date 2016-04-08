@@ -1,0 +1,21 @@
+---
+
+extends:
+  - defaults/rules/eslint/node/airbnb
+  - defaults/rules/eslint/es6/airbnb
+  - defaults/rules/eslint/errors/airbnb
+  - defaults/rules/eslint/style/airbnb
+  - defaults/rules/eslint/best-practices/airbnb
+parser: babel-eslint
+env:
+  es6: true
+rules:
+  quotes: [2, "single", "avoid-escape"]
+  strict: [1, "global"]
+  no-empty-label: [0]
+  space-after-keywords: [0]
+  space-return-throw-case: [0]
+  new-cap: [1]
+  no-param-reassign: [1]
+  consistent-return: [1]
+  camelcase: [1]
