@@ -1,6 +1,8 @@
 This runs on Node version 5.x.
 
-To try this example, clone this repository and download client secret from [Google API Console](https://console.developers.google.com/) (from credentials tab, click the credential of application type `Other`). Rename the json file to `client_secret.json` and put it in the project directory.
+To try this example, clone this repository and download client secret from [Google API Console](https://console.developers.google.com/) (from credentials tab, click the credential of application type `Other`). Rename the json file to `client_secret.json` and put it in the project directory. Run `npm install` to install the required node packages.
+
+Run `node index.js` to start the server.
 
 When this application first runs, an URL will be presented in console. Copy and paste the URL into a browser and follow the instructions for authorisation. Note that the account signed-in will be used to send the mails. At the end of the screen flow, you will be presented with an authorisation code. Copy and paste the code into the console window to continue.
 
