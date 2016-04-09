@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alexhokl/node-example-gmail-send#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "google-auth-library": "^0.9.7",
     "googleapis": "^4.0.0"
