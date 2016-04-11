@@ -66,7 +66,7 @@ function storeToken(token) {
   fs.writeFile(TOKEN_PATH, JSON.stringify(token));
 }
 
-function listLabels(auth, req, res, attachments) {
+function sendMail(auth, req, res, attachments) {
   const encodedMessage = mailMessage.getEncodedMessage(
     req.body.to, req.body.from, req.body.subject, req.body.message, attachments);
 
@@ -106,7 +106,7 @@ app.post('/message', (req, res) => {
       });
     }
 
-    authorize(JSON.parse(content), listLabels, req, res, attachments);
+    authorize(JSON.parse(content), sendMail, req, res, attachments);
   });
 });
 
